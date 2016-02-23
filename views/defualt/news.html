@@ -1,0 +1,25 @@
+
+
+                <h1 class="page-header">
+                    News Page
+                    <small>Hi :)</small>
+                </h1>
+
+                <!-- Blog Post -->
+                
+            <div ng-repeat="post in news | orderBy:id">
+                <h2>
+                    <a href="#">{{ post.title}}</a>
+                </h2>
+                <p class="lead">
+                    by <a href="index.php">{{ post.by }}</a>
+                </p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.post_time }}</p>
+                <hr>
+                <img class="img-responsive" src="assets/images/post/{{ post.img }}" alt="">
+                <hr>
+                <p>{{ post.body }}</p>
+                <a class="btn btn-primary" href="#/news/{{ post.id }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+                <hr>
+            </div>
