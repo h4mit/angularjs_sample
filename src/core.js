@@ -32,3 +32,10 @@ examApp.config(['$routeProvider',
       });
   }]);
 
+
+examApp.controller('NavCtrl', ['$scope', '$location', function($scope,$location) {
+       console.log(" Header controller " + $location.path());
+   $scope.isActive = function(route) {
+        return route === $location.path();
+    };
+}]);
