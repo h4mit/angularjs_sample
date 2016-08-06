@@ -1,0 +1,28 @@
+{
+  "name": "AngularJS sample",
+  "description": "A sample project for use AngularJS",
+  "main": "",
+  "authors": [
+    "H4mit"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Aroin"
+  ],
+  "homepage": "https://github.com/ht68/angularjs_sample",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "angular-material": "^1.0.9",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "angular": "1.5.8"
+  }
+}

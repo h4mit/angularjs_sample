@@ -1,0 +1,14 @@
+{
+  "name": "AngularJS sample",
+  "version": "1.2",
+  "author": {
+    "name": "H4mit",
+    "email": "H4mid.Taheri@gmail.com",
+    "url": "http://h4mit.ir/"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-concat-css": "^0.3.1",
+    "grunt-contrib-concat": "^1.0.1"
+  }
+}
