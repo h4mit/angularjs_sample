@@ -1,6 +1,9 @@
 var examApp = angular.module('examApp', [
   'ngRoute',
-  'defualtControllers'
+  'defualtControllers',
+  'ngMaterial', 
+  'ngMessages', 
+  'material.svgAssetsCache'
 ]);
 
 

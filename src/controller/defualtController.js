@@ -2,8 +2,12 @@ var defualtControllers = angular.module('defualtControllers', []);
 
 
 
-defualtControllers.controller('DefualtIndexCtrl', ['$scope', function($scope) {
+defualtControllers.controller('DefualtIndexCtrl', ['$scope', '$mdToast', function($scope, $mdToast) {
      // code here
+     $mdToast.show($mdToast.simple().textContent('Welcome to AngularJS example project ;-) !')
+        .position('top right' )
+        .hideDelay(2000)
+     );
      console.log("Index Controller running ... ");
 }]);
 

@@ -32082,8 +32082,12 @@ var defualtControllers = angular.module('defualtControllers', []);
 
 
 
-defualtControllers.controller('DefualtIndexCtrl', ['$scope', function($scope) {
+defualtControllers.controller('DefualtIndexCtrl', ['$scope', '$mdToast', function($scope, $mdToast) {
      // code here
+     $mdToast.show($mdToast.simple().textContent('Hello Hamid!')
+        .position('top right' )
+        .hideDelay(2000)
+     );
      console.log("Index Controller running ... ");
 }]);
 
@@ -32111,7 +32115,10 @@ defualtControllers.controller('DefualtDetailNewsCtrl', ['$scope', '$routeParams'
 
 var examApp = angular.module('examApp', [
   'ngRoute',
-  'defualtControllers'
+  'defualtControllers',
+  'ngMaterial', 
+  'ngMessages', 
+  'material.svgAssetsCache'
 ]);
 
 
