@@ -1,6 +1,6 @@
 {
-  "name": "AngularJS sample",
-  "version": "1.2",
+  "name": "AngularJS_sample",
+  "version": "1.0.2",
   "author": {
     "name": "H4mit",
     "email": "H4mid.Taheri@gmail.com",
@@ -10,5 +10,8 @@
     "grunt": "^1.0.1",
     "grunt-concat-css": "^0.3.1",
     "grunt-contrib-concat": "^1.0.1"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
   }
 }

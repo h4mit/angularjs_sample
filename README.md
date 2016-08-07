@@ -19,8 +19,9 @@ AngularJs sample application
   5- $ npm install --production
   6- $ bower install --production
   7- $ grunt
+  8- $ npm start
   ```
-  now, welcome to project :)
+  now, welcome to project :) viewed at : http://localhost:8000
  -------------------------------------------------
  http://angularjs.org read document
  version : 1.5.0
