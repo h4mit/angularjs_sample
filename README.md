@@ -11,6 +11,7 @@ AngularJs sample application
 
  -------------------------------------------------
  Installation :
+ ```
   1- $ git clone https://github.com/ht68/angularjs_sample.git
   2- Install nodeJS (https://nodejs.org/en/download/)
   3- $ npm install -g grunt-cli 
@@ -18,6 +19,7 @@ AngularJs sample application
   5- $ npm install --production
   6- $ bower install --production
   7- $ grunt
+  ```
   now, welcome to project :)
  -------------------------------------------------
  http://angularjs.org read document
